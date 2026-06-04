@@ -1,0 +1,15 @@
+/* -------- SIBLING COMBINATOR ----- *//* 
+
+p + h3 {
+    text-decoration: red underline;
+}
+
+.upvote + button{
+    background-color: gold;
+} */
+
+/* -------- CHILD COMBINATOR ----- */
+
+span > button{
+    background-color: lawngreen;
+}

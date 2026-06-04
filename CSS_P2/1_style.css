@@ -1,4 +1,4 @@
-/* -------  Universal selector --------> NOT RECOMMENDED TO USE
+/* ------- 1. Universal selector --------> NOT RECOMMENDED TO USE
 * {
     font-family: 'Courier New';
     background-color: bisque;
@@ -7,7 +7,7 @@
  */
 
 /* 
---------  ELEMENT SELECTOR -----------
+-------- 2. ELEMENT SELECTOR -----------
 h1{
     color:#b92b2b;
 }
@@ -16,20 +16,50 @@ h3, button{
     color:purple;
 
 }
- */
+*/
 
-/* --------  ID SELECTOR -----------
+/* --------  3. ID SELECTOR -----------
 
 #login{
     background-color: pink;
 }
-
 #signup{
     background-color: turquoise;
 }
- */
 
+*/
+
+/* -------- 4. CLASS SELECTOR -----------
 
 .A {
     color:deeppink;
 }
+ */
+
+ /* ------ 5. DESCENDANT SELECTOR ---------
+ target elem that are nested inside another elem, 
+ no matter how deep the nesting goes. *//*
+
+ p a {
+    color:greenyellow;
+}
+
+nav ul li a {
+    color:sienna;
+}  */
+
+
+/* --------  6. ATTRIBUTE SELECTOR ----------- *//* 
+
+input[type = "text"]{
+    color: red;
+}
+
+input[type = "password"]{
+    color: greenyellow;
+}
+
+input[type] {
+    background-color: bisque;
+}
+ */
