@@ -1,0 +1,35 @@
+/* -------  Universal selector --------> NOT RECOMMENDED TO USE
+* {
+    font-family: 'Courier New';
+    background-color: bisque;
+}
+
+ */
+
+/* 
+--------  ELEMENT SELECTOR -----------
+h1{
+    color:#b92b2b;
+}
+
+h3, button{
+    color:purple;
+
+}
+ */
+
+/* --------  ID SELECTOR -----------
+
+#login{
+    background-color: pink;
+}
+
+#signup{
+    background-color: turquoise;
+}
+ */
+
+
+.A {
+    color:deeppink;
+}
