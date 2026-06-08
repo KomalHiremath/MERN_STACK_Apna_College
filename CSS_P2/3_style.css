@@ -1,0 +1,38 @@
+/* Pseudo class: */
+/* HOVER */
+button:hover{
+    background-color:black;
+    color: white;
+}
+
+h3:hover {
+    text-decoration: underline;
+}
+
+/* ACTIVE */
+button:active {
+    /* color:red;
+    background-color:aqua;  */
+    transform:scale(2);
+}
+p:active {
+    font-weight: bold;
+    color: green;
+}
+
+/* CHECKED */
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+input[type="checkbox"]:checked + label{
+    color: greenyellow;
+    font-weight: bolder;
+}
+
+
+/* nth-of-type */
+div:nth-of-type(2n) {
+    background-color: aquamarine;
+}
