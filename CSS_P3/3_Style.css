@@ -1,0 +1,33 @@
+div{
+    height: 300px;
+    width: 300px; 
+}
+
+
+div{
+    padding-left:20px;
+    padding-right:70px;
+    padding-top:10px;
+    padding-bottom:40px; 
+}
+
+div{
+    border: 10px solid red;
+}
+
+button{
+    background-color: brown;
+    color: white;
+}
+/* button{
+    border: 2px solid;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+} */
+
+button{
+    /* padding: 20px; --> ALL 4 SIDES */
+    /* padding: 40px 10px; --> Top&Bottom | Left&Right  */
+    /* padding: 10px 40px 60px 80px; T| R | B | L -->CLOCKWISE  */
+}
