@@ -1,5 +1,6 @@
 div{
     height: 300px;
+    width: 300px;
 }
 /* 2 ways to write the border:
 1st way */
@@ -16,10 +17,21 @@ div{
     border: 5px dashed blue;
 } */
 
+/* BORDER SIDES *//* 
 div{
     border: 5px dashed;
     border-left-color:red;
     border-right-style: solid;
     border-top: green dotted 10px;
     border-bottom-color: pink;
+} */
+
+/* 
+BORDER RADIUS */
+div{
+    border: 5px solid;
+    border-radius: 30px;
+/*  border-radius: 30%; --> more rounder at the corner
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px; */
 }
