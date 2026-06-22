@@ -3,9 +3,9 @@ h1::first-letter {
 }
 
 
-p::first-line {
+/* {
     color:red;
-}
+} */
 
 p::selection {
     background-color: yellowgreen;

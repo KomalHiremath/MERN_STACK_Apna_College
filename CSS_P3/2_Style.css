@@ -1,0 +1,25 @@
+div{
+    height: 300px;
+}
+/* 2 ways to write the border:
+1st way */
+
+/* div{
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+} */
+
+/* 2nd way SHORTHANDED*/
+/*          width | style | color               */
+/* div{
+    border: 5px dashed blue;
+} */
+
+div{
+    border: 5px dashed;
+    border-left-color:red;
+    border-right-style: solid;
+    border-top: green dotted 10px;
+    border-bottom-color: pink;
+}
